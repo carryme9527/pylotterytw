@@ -1,0 +1,4 @@
+resources/history/winners/*
+!resources/history/winners/download.sh
+resources/history/numbers/*
+!resources/history/numbers/download.sh

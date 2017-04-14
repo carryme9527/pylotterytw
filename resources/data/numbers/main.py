@@ -1,4 +1,2 @@
 from parse import main, length_dict
-
-for name in length_dict.keys():
-    main([name])
+main(length_dict.keys())

@@ -89,6 +89,7 @@ def main(lottery_names):
     length, sn = length_dict[name]
     path = os.path.join(target_path, name)
     files = os.listdir(path)
+    files.sort()
 
     headers = ['index']
     headers.extend(['year', 'month', 'day'])

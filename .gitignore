@@ -2,6 +2,12 @@ resources/history/winners/*
 !resources/history/winners/download.sh
 resources/history/numbers/*
 !resources/history/numbers/download.sh
+resources/data/numbers/*.csv
+database/settings.py
+database/lottery.db
+
+playground.py
+venv/
 
 *.pyc
 .*.swp
